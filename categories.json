@@ -1,0 +1,34 @@
+[
+  {
+    "id": "TC",
+    "name": "Tortas Cuadradas"
+  },
+  {
+    "id": "TT",
+    "name": "Tortas Circulares"
+  },
+  {
+    "id": "PI",
+    "name": "Postres Individuales"
+  },
+  {
+    "id": "PSA",
+    "name": "Productos Sin Azúcar"
+  },
+  {
+    "id": "PT",
+    "name": "Pastelería Tradicional"
+  },
+  {
+    "id": "PG",
+    "name": "Productos Sin Gluten"
+  },
+  {
+    "id": "PV",
+    "name": "Productos Vegana"
+  },
+  {
+    "id": "TE",
+    "name": "Tortas Especiales"
+  }
+]

@@ -1,0 +1,82 @@
+
+:root{
+  --bg:#FFF5E1;         /* Crema Pastel */
+  --accent:#FFC0CB;     /* Rosa Suave */
+  --choco:#8B4513;      /* Chocolate */
+  --text:#5D4037;       /* Marrón Oscuro */
+  --text-2:#B0BEC5;     /* Gris Claro */
+}
+
+*{box-sizing:border-box;}
+html,body{height:100%;}
+body{
+  margin:0;
+  font-family:'Lato',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+a{ color: var(--choco); text-decoration: none; }
+a:hover{ text-decoration: underline; }
+
+/* Navbar */
+.navbar-brand{
+  font-family:'Pacifico', cursive;
+  color: var(--choco) !important;
+  font-size: 1.8rem;
+}
+
+.btn-pastel{
+  background:var(--accent);
+  border-color:var(--choco);
+  color:#6a3d3d;
+}
+.btn-pastel:hover{
+  filter:brightness(0.95);
+}
+
+.hero{
+  background: url('https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=1600&q=60') center/cover no-repeat;
+  color: white;
+  position: relative;
+}
+.hero::after{
+  content:''; position:absolute; inset:0; background:rgba(0,0,0,.35);
+}
+.hero .container{ position:relative; z-index:2; }
+
+.card{
+  border: 1px solid #f0d7d7;
+  box-shadow: 0 8px 18px rgba(139,69,19,0.08);
+  border-radius: 16px;
+}
+.badge-diet{ background:#79d28d; }
+
+footer{
+  background:#fdebed;
+  border-top: 2px solid #f6cbd3;
+  color:#7a5b56;
+}
+
+.section-title{
+  font-family:'Pacifico', cursive;
+  color:var(--choco);
+  font-size:2rem;
+}
+
+.small-note{ color: var(--text-2); }
+
+/* Product grid */
+.product-img{ height: 220px; object-fit: cover; border-top-left-radius: 16px; border-top-right-radius: 16px; }
+
+/* Offcanvas cart */
+.cart-item{ border-bottom:1px dashed #e9c2c2; padding-bottom:8px; margin-bottom:8px; }
+
+/* Stats canvas */
+#chart-sales, #chart-cats{ max-width: 900px; margin: 0 auto; }
+
+/* Forms */
+.form-control:focus{
+  border-color: var(--accent);
+  box-shadow: 0 0 0 0.2rem rgba(255,192,203,.25);
+}

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto · Pastelería 1000 Sabores</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?&family=Lato:wght@300;400;700;900&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <meta name="theme-color" content="#FFC0CB">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light border-bottom">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">1000 Sabores</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="estadisticas.html">Estadísticas</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="seguimiento.html">Seguimiento</a></li>
+      </ul>
+      <button class="btn btn-pastel position-relative" onclick="window.location='checkout.html'">
+        Carrito / Checkout
+        <span class="badge text-bg-danger ms-2" id="cart-count">0</span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section class="container my-4">
+  <h2 class="section-title mb-3">Contacto</h2>
+  <div class="row g-4">
+    <div class="col-lg-6">
+      <div class="card p-3">
+        <form id="contact-form">
+          <div class="mb-2"><input class="form-control" id="c-name" placeholder="Nombre completo" required></div>
+          <div class="mb-2"><input class="form-control" id="c-email" type="email" placeholder="Correo" required></div>
+          <div class="mb-2"><textarea class="form-control" id="c-msg" rows="5" placeholder="Mensaje"></textarea></div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="checkbox" id="c-terms" required>
+            <label class="form-check-label" for="c-terms">Acepto términos y privacidad</label>
+          </div>
+          <button class="btn btn-pastel" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="card p-3">
+        <h5>Historia y Origen</h5>
+        <p>Desde 1975, 1000 Sabores ha creado momentos inolvidables. En 1995, colaboramos en la “torta más grande del mundo”.</p>
+        <img class="img-fluid rounded" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Cake_Slice.jpg" alt="Historia Pastelería">
+      </div>
+      <div class="card p-3 mt-3">
+        <h5>Impacto Comunitario</h5>
+        <p>Apoyamos a estudiantes de gastronomía a través de talleres y prácticas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(e){
+  e.preventDefault();
+  const record = {
+    id: 'MSG-' + Math.random().toString(36).slice(2,8).toUpperCase(),
+    name: document.getElementById('c-name').value.trim(),
+    email: document.getElementById('c-email').value.trim(),
+    msg: document.getElementById('c-msg').value.trim(),
+    ts: new Date().toISOString()
+  };
+  const key='contact_messages';
+  const list = JSON.parse(localStorage.getItem(key)||'[]'); list.push(record);
+  localStorage.setItem(key, JSON.stringify(list));
+  alert('¡Mensaje enviado! Te contactaremos pronto.');
+  this.reset();
+});
+</script>
+
+<footer class="mt-5 py-4">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
+    <div>
+      <div class="section-title mb-1">1000 Sabores</div>
+      <div class="small-note">© 2025 Tradición y creatividad en repostería.</div>
+    </div>
+    <div>
+      <div class="fw-semibold">Síguenos</div>
+      <div class="d-flex gap-3">
+        <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.tiktok.com" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src='/Scripts/app.js'></script>
+
+</body></html>

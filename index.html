@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio · Pastelería 1000 Sabores</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?&family=Lato:wght@300;400;700;900&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <meta name="theme-color" content="#FFC0CB">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light border-bottom">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">1000 Sabores</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="estadisticas.html">Estadísticas</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="seguimiento.html">Seguimiento</a></li>
+      </ul>
+      <button class="btn btn-pastel position-relative" onclick="window.location='checkout.html'">
+        Carrito / Checkout
+        <span class="badge text-bg-danger ms-2" id="cart-count">0</span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero py-5">
+  <div class="container py-5">
+    <h1 class="display-4 fw-bold">50 años celebrando la dulzura</h1>
+    <p class="lead">Participamos en el récord Guinness de 1995 con la torta más grande del mundo. Hoy renovamos nuestra experiencia online.</p>
+    <a href="productos.html" class="btn btn-pastel btn-lg">Ver Catálogo</a>
+  </div>
+</header>
+
+<section class="container my-5">
+  <h2 class="section-title mb-3">Misión</h2>
+  <p>Ofrecer una experiencia dulce y memorable, con productos de alta calidad para todas las ocasiones, celebrando nuestras raíces e impulsando la creatividad en repostería.</p>
+
+  <h2 class="section-title mt-5 mb-3">Visión</h2>
+  <p>Ser la tienda online líder en Chile, reconocida por innovación, calidad e impacto positivo en la comunidad, especialmente en la formación de nuevos talentos en gastronomía.</p>
+</section>
+
+<section class="container my-5">
+  <h2 class="section-title mb-4">Categorías</h2>
+  <div class="row g-4">
+    <div class="col-sm-6 col-md-3">
+      <div class="card h-100">
+        <img class="product-img" src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=1200&q=60" alt="Tortas Cuadradas">
+        <div class="card-body"><h5 class="card-title">Tortas Cuadradas</h5></div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="card h-100">
+        <img class="product-img" src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=60" alt="Tortas Circulares">
+        <div class="card-body"><h5 class="card-title">Tortas Circulares</h5></div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="card h-100">
+        <img class="product-img" src="https://images.unsplash.com/photo-1606313564200-e75d5e30476d?auto=format&fit=crop&w=1200&q=60" alt="Postres Individuales">
+        <div class="card-body"><h5 class="card-title">Postres Individuales</h5></div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="card h-100">
+        <img class="product-img" src="https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=1200&q=60" alt="Sin Azúcar">
+        <div class="card-body"><h5 class="card-title">Sin Azúcar</h5></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container my-5">
+  <h2 class="section-title mb-3">Impacto Comunitario</h2>
+  <p>Al comprar en 1000 Sabores, apoyas a estudiantes de gastronomía y proyectos locales. ¡Gracias por ser parte de esta comunidad!</p>
+</section>
+
+<footer class="mt-5 py-4">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
+    <div>
+      <div class="section-title mb-1">1000 Sabores</div>
+      <div class="small-note">© 2025 Tradición y creatividad en repostería.</div>
+    </div>
+    <div>
+      <div class="fw-semibold">Síguenos</div>
+      <div class="d-flex gap-3">
+        <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.tiktok.com" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src='/Scripts/app.js'></script>
+
+</body></html>

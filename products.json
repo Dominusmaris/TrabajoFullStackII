@@ -1,0 +1,377 @@
+[
+  {
+    "id": "TC001",
+    "sku": "TC001",
+    "name": "Torta Cuadrada de Chocolate",
+    "categoryId": "TC",
+    "shape": "square",
+    "basePriceCLP": 45000,
+    "variants": [
+      {
+        "id": "TC001-8P",
+        "label": "8 porciones",
+        "priceDeltaCLP": 0
+      },
+      {
+        "id": "TC001-12P",
+        "label": "12 porciones",
+        "priceDeltaCLP": 7000
+      },
+      {
+        "id": "TC001-20P",
+        "label": "20 porciones",
+        "priceDeltaCLP": 17000
+      }
+    ],
+    "dietTags": [],
+    "personalization": {
+      "allowMessage": true,
+      "maxChars": 40
+    },
+    "description": "Bizcocho chocolate con ganache y toque de avellanas.",
+    "images": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "TC002",
+    "sku": "TC002",
+    "name": "Torta Cuadrada de Frutas",
+    "categoryId": "TC",
+    "shape": "square",
+    "basePriceCLP": 50000,
+    "variants": [
+      {
+        "id": "TC002-12P",
+        "label": "12 porciones",
+        "priceDeltaCLP": 0
+      },
+      {
+        "id": "TC002-20P",
+        "label": "20 porciones",
+        "priceDeltaCLP": 15000
+      }
+    ],
+    "dietTags": [],
+    "personalization": {
+      "allowMessage": true,
+      "maxChars": 40
+    },
+    "description": "Frutas frescas y crema chantilly sobre vainilla.",
+    "images": [
+      "https://images.unsplash.com/photo-1501430654243-c934cec2e1f2?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "TT001",
+    "sku": "TT001",
+    "name": "Torta Circular de Vainilla",
+    "categoryId": "TT",
+    "shape": "circle",
+    "basePriceCLP": 40000,
+    "variants": [
+      {
+        "id": "TT001-8P",
+        "label": "8 porciones",
+        "priceDeltaCLP": 0
+      },
+      {
+        "id": "TT001-12P",
+        "label": "12 porciones",
+        "priceDeltaCLP": 6000
+      }
+    ],
+    "dietTags": [],
+    "personalization": {
+      "allowMessage": true,
+      "maxChars": 40
+    },
+    "description": "Vainilla clásica con crema pastelera y glaseado.",
+    "images": [
+      "https://images.unsplash.com/photo-1541782814453-f1dca0c4a6a5?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "TT002",
+    "sku": "TT002",
+    "name": "Torta Circular de Manjar",
+    "categoryId": "TT",
+    "shape": "circle",
+    "basePriceCLP": 42000,
+    "variants": [
+      {
+        "id": "TT002-8P",
+        "label": "8 porciones",
+        "priceDeltaCLP": 0
+      },
+      {
+        "id": "TT002-12P",
+        "label": "12 porciones",
+        "priceDeltaCLP": 6000
+      }
+    ],
+    "dietTags": [],
+    "personalization": {
+      "allowMessage": true,
+      "maxChars": 40
+    },
+    "description": "Tradicional chilena con manjar y nueces.",
+    "images": [
+      "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "PI001",
+    "sku": "PI001",
+    "name": "Mousse de Chocolate",
+    "categoryId": "PI",
+    "shape": "single",
+    "basePriceCLP": 5000,
+    "variants": [],
+    "dietTags": [],
+    "personalization": {
+      "allowMessage": false
+    },
+    "description": "Cremoso, hecho con chocolate de alta calidad.",
+    "images": [
+      "https://images.unsplash.com/photo-1606313564200-e75d5e30476d?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "PI002",
+    "sku": "PI002",
+    "name": "Tiramisú Clásico",
+    "categoryId": "PI",
+    "shape": "single",
+    "basePriceCLP": 5500,
+    "variants": [],
+    "dietTags": [],
+    "personalization": {
+      "allowMessage": false
+    },
+    "description": "Postre italiano con café, mascarpone y cacao.",
+    "images": [
+      "https://images.unsplash.com/photo-1612874742237-6526221588d2?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "PSA001",
+    "sku": "PSA001",
+    "name": "Torta Sin Azúcar de Naranja",
+    "categoryId": "PSA",
+    "shape": "circle",
+    "basePriceCLP": 48000,
+    "variants": [
+      {
+        "id": "PSA001-12P",
+        "label": "12 porciones",
+        "priceDeltaCLP": 0
+      }
+    ],
+    "dietTags": [
+      "sin_azucar"
+    ],
+    "personalization": {
+      "allowMessage": true,
+      "maxChars": 40
+    },
+    "description": "Endulzada naturalmente, opción saludable.",
+    "images": [
+      "https://images.unsplash.com/photo-1541781286675-09d7f3c89d89?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "PSA002",
+    "sku": "PSA002",
+    "name": "Cheesecake Sin Azúcar",
+    "categoryId": "PSA",
+    "shape": "single",
+    "basePriceCLP": 47000,
+    "variants": [],
+    "dietTags": [
+      "sin_azucar"
+    ],
+    "personalization": {
+      "allowMessage": false
+    },
+    "description": "Cheesecake suave y cremoso, sin azúcar añadida.",
+    "images": [
+      "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "PT001",
+    "sku": "PT001",
+    "name": "Empanada de Manzana",
+    "categoryId": "PT",
+    "shape": "single",
+    "basePriceCLP": 3000,
+    "variants": [],
+    "dietTags": [],
+    "personalization": {
+      "allowMessage": false
+    },
+    "description": "Rellena de manzanas especiadas, ideal para merienda.",
+    "images": [
+      "https://images.unsplash.com/photo-1543470376-33e5d6b189fb?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "PT002",
+    "sku": "PT002",
+    "name": "Tarta de Santiago",
+    "categoryId": "PT",
+    "shape": "single",
+    "basePriceCLP": 6000,
+    "variants": [],
+    "dietTags": [],
+    "personalization": {
+      "allowMessage": false
+    },
+    "description": "Tradicional tarta de almendras.",
+    "images": [
+      "https://images.unsplash.com/photo-1541781241971-0477a3a8f6b7?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "PG001",
+    "sku": "PG001",
+    "name": "Brownie Sin Gluten",
+    "categoryId": "PG",
+    "shape": "single",
+    "basePriceCLP": 4000,
+    "variants": [],
+    "dietTags": [
+      "sin_gluten"
+    ],
+    "personalization": {
+      "allowMessage": false
+    },
+    "description": "Denso y rico, sin gluten.",
+    "images": [
+      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "PG002",
+    "sku": "PG002",
+    "name": "Pan Sin Gluten",
+    "categoryId": "PG",
+    "shape": "single",
+    "basePriceCLP": 3500,
+    "variants": [],
+    "dietTags": [
+      "sin_gluten"
+    ],
+    "personalization": {
+      "allowMessage": false
+    },
+    "description": "Suave y esponjoso, ideal para sandwiches.",
+    "images": [
+      "https://images.unsplash.com/photo-1549576490-b0b4831ef60a?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "PV001",
+    "sku": "PV001",
+    "name": "Torta Vegana de Chocolate",
+    "categoryId": "PV",
+    "shape": "circle",
+    "basePriceCLP": 50000,
+    "variants": [
+      {
+        "id": "PV001-12P",
+        "label": "12 porciones",
+        "priceDeltaCLP": 0
+      }
+    ],
+    "dietTags": [
+      "vegana"
+    ],
+    "personalization": {
+      "allowMessage": true,
+      "maxChars": 40
+    },
+    "description": "Húmeda, sin productos de origen animal.",
+    "images": [
+      "https://images.unsplash.com/photo-1606313564200-e75d5e30476d?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "PV002",
+    "sku": "PV002",
+    "name": "Galletas Veganas de Avena",
+    "categoryId": "PV",
+    "shape": "single",
+    "basePriceCLP": 4500,
+    "variants": [],
+    "dietTags": [
+      "vegana"
+    ],
+    "personalization": {
+      "allowMessage": false
+    },
+    "description": "Crujientes y sabrosas, opción saludable.",
+    "images": [
+      "https://images.unsplash.com/photo-1509440159598-8b49f4a660d7?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "TE001",
+    "sku": "TE001",
+    "name": "Torta Especial de Cumpleaños",
+    "categoryId": "TE",
+    "shape": "circle",
+    "basePriceCLP": 55000,
+    "variants": [
+      {
+        "id": "TE001-12P",
+        "label": "12 porciones",
+        "priceDeltaCLP": 0
+      },
+      {
+        "id": "TE001-20P",
+        "label": "20 porciones",
+        "priceDeltaCLP": 15000
+      }
+    ],
+    "dietTags": [],
+    "personalization": {
+      "allowMessage": true,
+      "maxChars": 50
+    },
+    "description": "Personalizable e ideal para celebraciones.",
+    "images": [
+      "https://images.unsplash.com/photo-1521302080334-4bebac2766e1?auto=format&fit=crop&w=1400&q=60"
+    ]
+  },
+  {
+    "id": "TE002",
+    "sku": "TE002",
+    "name": "Torta Especial de Boda",
+    "categoryId": "TE",
+    "shape": "circle",
+    "basePriceCLP": 60000,
+    "variants": [
+      {
+        "id": "TE002-30P",
+        "label": "30 porciones",
+        "priceDeltaCLP": 0
+      },
+      {
+        "id": "TE002-50P",
+        "label": "50 porciones",
+        "priceDeltaCLP": 30000
+      }
+    ],
+    "dietTags": [],
+    "personalization": {
+      "allowMessage": true,
+      "maxChars": 60
+    },
+    "description": "Elegante y deliciosa para una boda inolvidable.",
+    "images": [
+      "https://images.unsplash.com/photo-1541733433073-8f8947f2c36e?auto=format&fit=crop&w=1400&q=60"
+    ]
+  }
+]
