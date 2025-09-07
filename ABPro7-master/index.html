@@ -1,83 +1,91 @@
-
-
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-	<meta charset="utf-8">
-	<title>CampCake</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-	 crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <title>CampCake</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script></script>
 </head>
-
-
-
 <body>
-	<div>
-		<h1>Pastelería CampCake</h1>
-	</div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-black_1">
-		<div class="container-fluid justify-content-center" id="barranav">
+  <header class="py-3 text-center">
+    <h1 class="m-0">Pastelería CampCake</h1>
+  </header>
 
-			<ul class="navbar-nav mb-2 mb-lg-0">
+  <nav class="navbar navbar-expand-lg navbar-light bg-black_1">
+    <div class="container-fluid justify-content-center" id="barranav">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Pedidos</a></li>
+        <li class="nav-item"><a class="nav-link" href="estadisticas.html">Estadísticas</a></li>
 
-				<li class="nav-item">
-					<a class="nav-link" href="index.html" id="form-contact">Inicio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="productos.html" id="form-contact">Productos</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="contacto.html" id="form-contact">Pedidos</a>
-				</li>
-        <li class="nav-item">
-					<a class="nav-link" href="estadisticas.html" id="form-contact">Estadisticas</a>
-				</li>
-		</div>
-		</div>
-	</nav>
+        <li class="nav-item"><a class="nav-link" id="nav-login" href="auth.html">Acceder</a></li>
+        <li class="nav-item"><a class="nav-link d-none" id="nav-perfil" href="perfil.html">Mi perfil</a></li>
+      </ul>
+    </div>
+  </nav>
 
-
-
-
-
-<main>
-	
-
-	<aside>
-	    <div class="galeria">
-            <h1>Nuestro Local</h1>
-            <div class="linea"></div>
-            <div class="contenedor-imagenes">
-                <div class="imagen">
-                    <img src="https://i.pinimg.com/originals/88/9f/0a/889f0ac220dc834b373c9e958041ae30.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="imagen">
-                    <img src="LOGO1.png" alt="">
-                </div>
-                <div class="imagen">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-p/12/60/39/f7/photo1jpg.jpg" class="img-fluid" class="img-fluid" alt="">
-                </div>
-            </div>
+  <main class="container my-4">
+    <aside class="mb-5">
+      <div class="galeria">
+        <h2 class="h3">Nuestro Local</h2>
+        <div class="linea"></div>
+        <div class="contenedor-imagenes row g-3">
+          <div class="imagen col-12 col-md-4">
+            <img src="https://i.pinimg.com/originals/88/9f/0a/889f0ac220dc834b373c9e958041ae30.jpg" class="img-fluid" alt="Interior de la pastelería">
+          </div>
+          <div class="imagen col-12 col-md-4">
+            <img src="LOGO1.png" class="img-fluid" alt="Logo CampCake">
+          </div>
+          <div class="imagen col-12 col-md-4">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-p/12/60/39/f7/photo1jpg.jpg" class="img-fluid" alt="Mostrador con tortas">
+          </div>
+        </div>
       </div>
-	</aside>
-  <section>
-	<h2>Sobre Nosotros</h2>
-	<p>Somos un emprendimiento de un grupo de jovenes, que vendemos productos de pastelería y panadería en la ciudad de Viña del Mar. Nos encontramos ubicados en Calle Valparaíso 328 y nuestros productos son elaborados con los más altos estándares de calidad, utilizando buena conservación de las materias primas y procesos de control.</p>
-	</section>
-</main>
-<footer>
-	<div>Equipo de BootCamp 
-    <br>Fernado Quezada, Valeria Sanchez, Alejandro Lanas y Carlos Galleguillos 
-    <br>&copy; Año 2022 </div>
-</footer>
+    </aside>
 
+    <section>
+      <h2 class="h3">Sobre Nosotros</h2>
+      <p>
+        Somos un emprendimiento de un grupo de jóvenes que elaboran productos de pastelería y panadería en Viña del Mar.
+        Estamos en Calle Valparaíso 328. Trabajamos con altos estándares de calidad, buena conservación de materias primas
+        y procesos de control.
+      </p>
+    </section>
+  </main>
+
+  <footer class="text-center py-4">
+    <div>
+      Equipo de BootCamp<br>
+      Fernado Quezada, Valeria Sanchez, Alejandro Lanas y Carlos Galleguillos<br>
+      &copy; 2022
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+          crossorigin="anonymous"></script>
+
+
+  <script src="Scripts/main.js"></script>
+
+  <script type="module">
+    import { currentUser } from './assets/js/auth.js';
+    const user = currentUser();
+    const loginLink  = document.getElementById('nav-login');
+    const perfilLink = document.getElementById('nav-perfil');
+    if (user) {
+      loginLink.classList.add('d-none');
+      perfilLink.classList.remove('d-none');
+    } else {
+      loginLink.classList.remove('d-none');
+      perfilLink.classList.add('d-none');
+    }
+  </script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="scripts/main.js"></script
 </html>

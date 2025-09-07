@@ -1,0 +1,4 @@
+[
+    { "id": "t1", "nombre": "Torta Chocolate", "categoria": "Tortas Circulares", "forma": "circular", "precio": 14990, "tags": ["sin_gluten"], "descripcion": "Bizcocho cacao, crema" },
+    { "id": "t2", "nombre": "Torta Frutilla",  "categoria": "Tortas Cuadradas",  "forma": "cuadrada",  "precio": 12990, "tags": [], "descripcion": "Vainilla, frutillas frescas" }
+  ]
